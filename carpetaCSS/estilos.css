@@ -1,0 +1,147 @@
+header{
+	width: 120%;
+	background: rgba(7, 70, 250,.9);
+	height: 70px;
+	position: fixed;
+	z-index: 5;
+	color: white;
+}
+
+/*esta parte hace que la barra del menu c pegue a la pared d la pagina*/
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	
+}
+/*esta parte ajusta el ancho,tamaño y el margen se ajusta matico de la pagina*/
+.ancho{
+	width: 80%;
+	height: 70px;
+	
+}
+/*esta parte ajusta la posicion,tamaño y ancho del logo*/
+.logo{
+	width: 30%;
+	height: 70px;
+	float: left;
+	box-sizing: border-box; 
+	padding-top: 10px;
+	text-align: right;
+
+}
+
+/*este hace que los link de la derecha se coloquen en la derecha tambien se ajustan al tamaño y la altura*/
+nav{
+	width: 70%;
+	height: 70px;
+	float: left;
+	text-align: right;
+	padding-top: 24px;
+	box-sizing: border-box;
+
+}
+
+/*este pone las letras de color blanco tambien el tamaño de la pagina y que se le quiten el subrayado*/
+.logo p a{
+	color: white;
+	font-size: 40px;
+	text-decoration: none;
+	margin: auto;
+	font-weight: bold;
+}
+
+ /*este hace que las listas se pongan en linea*/
+nav ul li{
+	display: inline;
+}
+
+/*este hace que las letras del menu se pongan blancas,sean mas grandes,hace que desaparezcan las subrayaciones que aparecen en el menu*/
+nav ul li a {
+	color: white;
+	font-size: 13px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold; /*pone las letras en negritas*/
+	letter-spacing: 1px;
+	padding-left: 15px
+	
+}
+/*este hace que cuando el mouse pase por arriba del menu las letras se pongan negras*/
+nav ul li a:hover{
+	color: #4f5a61;
+	transition: 0.2s;
+}
+
+/*este hace que cuando el mouse pase por encima del "logo" este se pone de color celeste*/
+
+
+
+.bienvenidos{
+	top: 200px;
+	position: absolute;
+	width: 100%;
+	color: white;
+
+
+}
+
+.bienvenidos a{
+	text-decoration: none;
+	font-size: 300%;
+	color: white;
+}
+
+
+
+#particles-js{
+	padding-bottom: 20%;
+	background: url(../imagen/fondo.JPG);
+	background-position: center;
+	width: 100%;
+	background-attachment: contain;
+	background-size: cover;
+
+}
+
+body{
+	background: url(../imagen/fondo19.JPG);
+		background-position: center;
+	width: 100%;
+	background-attachment: contain;
+	background-size: cover;
+
+}
+
+.redes{
+	font-size: 35px;
+	position: absolute;
+	padding-left: 30%;
+	padding-top: 15px;
+}
+
+.redes a{
+	text-decoration: none;
+	color: white;
+	
+
+}
+
+.fa-instagram:hover{
+	font-size: 45px;
+	transition: 0.2s;
+}
+
+.fa-youtube-square:hover{
+	font-size: 45px;
+	transition: 0.2s;
+}
+
+.fa-twitter-square:hover{
+	font-size: 45px;
+	transition: 0.2s;
+}
+
+.galeria{
+	font-weight: bold;
+}

@@ -1,0 +1,120 @@
+.turismo {
+	float: left;
+	box-sizing: border-box;
+	margin: auto;
+
+
+}
+
+.precio1 {
+	box-sizing: border-box;
+	float: left;
+	width: 25%;
+	margin-top: 20px;
+	padding-left: 20px;
+	margin-left: 1px;
+}
+
+
+.caja {
+	border: gray 3px solid;
+	background: #3473E1;
+	text-align: center;
+	z-index: 5;
+	transition: 1s;
+}
+
+.iconos {
+	color: white;
+	padding-top: 20px;
+	font-size: 4em;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.precio2 {
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.moneda {
+	font-size: 20px;
+	color: white;
+	vertical-align: super;
+}
+
+.mes {
+	font-size: 20px;
+	color: white;
+	vertical-align: text-bottom;
+}
+
+.beneficios {
+	list-style: none;
+	padding: 20px 0;
+	color: white;
+	padding-bottom: 50px;
+}
+
+.boton1 {
+	margin-bottom: 25px;
+}
+
+.aceptar1 {
+	background: white;
+	text-decoration: none;
+	color: gray;
+	font-weight: bold;
+	padding: 10px 30px;
+	letter-spacing: 3px;
+	width: 90%;
+	border: gray solid 2px;
+}
+
+.espacio {
+	padding: 5px;
+	font-size: 20px;
+}
+
+.aceptar1:hover {
+	color: black;
+	font-size: 25px;
+	transition: 0.2s;
+
+}
+
+.caja:hover {
+	background-color: #34E17B;
+	box-shadow: 50px;
+	z-index: 500;
+	box-sizing: border-box;
+	float: left;
+	font-size: 25px;
+
+}
+
+.bosque {
+	color: #fff;
+	font-size: 40px;
+}
+
+.museo {
+	color: #fff;
+	font-size: 30px;
+	height: 90px;
+}
+
+
+
+.plan {
+	color: #3C424C;
+}
+
+.lateral img {
+	width: 220px;
+	height: 575px;
+	padding-top: 20px;
+	padding-left: 20px;
+
+}

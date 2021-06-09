@@ -1,0 +1,74 @@
+.articulos{
+	color: #4f5a61;
+	width: 90%;
+	margin: auto;
+}
+	
+
+
+.articulo{
+	width: 33.333%;
+	float: left;
+	padding: 20px 20px;
+	box-sizing: border-box;
+
+}
+
+.g-articulos{
+	width: 100%;
+	margin: auto;
+
+}
+
+.articulo img{
+	width: 100%;
+}
+
+h3{
+	font-weight: normal;
+}
+
+.autor{
+	background: url(../imagen/fondo9.JPG);
+	float: left;
+	width: 900px;
+	height: 200px;
+	background-repeat: no-repeat; /*no se repetira*/
+	background-attachment: fixed; /*se queda fija*/
+	border: gray solid 4px;
+	margin-left: 250px; 
+
+}
+
+.centrar{
+	padding-top: 100px;
+	font-weight: normal;
+	box-shadow: 8px;
+	color: white;
+}
+
+.galeria{
+	font-weight: normal;	
+	font-family: sans-serif;
+	color: rgba(7, 66, 147);
+
+}
+
+.galeria1{
+	font-weight: normal;
+	font-family: sans-serif;
+	color: rgba(7, 66, 147);
+}
+
+.flecha a{
+	color: rgba(7, 70, 250);
+	font-size: 300%;
+	text-decoration: none;
+}
+
+
+.flecha1 a{
+	color: #0746FA;
+	font-size: 300%;
+	text-decoration: none;
+}
